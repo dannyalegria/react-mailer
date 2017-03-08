@@ -6,10 +6,10 @@ export default class MessageLink extends React.Component {
 
 		return (
 			<div style={ styles.wrapper }>
-				<h3>{ /* message name */ }</h3>
+    <h3>{ this.props.name }</h3>
 
-				{ /* message email */ }
-			</div>
+    { this.props.email }
+</div>
 		);
 	}
 
